@@ -3,7 +3,7 @@ import todosReducer from './todosSlice';
 import authReducer from './authSlice';
 import themeReducer from './themeSlice';
 
-import weatherReducer from './weatherslice';
+import weatherReducer from './weatherSlice';
 
 export const store = configureStore({
   reducer: {
