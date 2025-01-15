@@ -4,7 +4,7 @@ import { RootState, AppDispatch } from '../store';
 import { format } from 'date-fns';
 import TodayTasks from './TaskProgress';
 import { useEffect, useState } from 'react';
-import { fetchWeather } from '../store/weatherslice';
+import { fetchWeather } from '../store/weatherSlice';
 
 interface LeftPanelProps {
   selectedView: string;
