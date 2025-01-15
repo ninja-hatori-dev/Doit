@@ -1,4 +1,4 @@
-// weatherSlice.ts
+
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { AppDispatch } from './index';
 import axios from 'axios';
