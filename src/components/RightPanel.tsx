@@ -18,7 +18,7 @@ export default function RightPanel({ selectedTodo, onClose, onDelete }: RightPan
   // Update the function to handle Value type from react-calendar
   
   return (
-    <div className="fixed right-0 top-[64px] w-80 h-[calc(100vh-64px)] bg-customGreen dark:bg-customDark border-l border-gray-200 dark:border-gray-700 p-4 shadow-lg">
+    <div className=" hidden lg:block fixed right-0 top-[64px] w-80 h-[calc(100vh-64px)] bg-customGreen dark:bg-customDark border-l border-gray-200 dark:border-gray-700 p-4 shadow-lg">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-lg font-semibold text-gray-800 dark:text-white">
           {selectedTodo.title}

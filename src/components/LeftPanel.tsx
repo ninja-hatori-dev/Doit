@@ -69,7 +69,7 @@ export default function LeftPanel({ selectedView, onViewChange }: LeftPanelProps
   ];
 
   return (
-    <div className="w-64 h-full bg-green-50 dark:bg-bulkDark border-r border-gray-200 dark:border-gray-700 p-4">
+    <div className="hidden lg:block w-64 h-full bg-green-50 dark:bg-bulkDark border-r border-gray-200 dark:border-gray-700 p-4">
       <div className="flex justify-center items-center">
       <img src="/avatar.jpeg" alt="Profile" className="w-24 h-24 object-cover rounded-full" />
 
