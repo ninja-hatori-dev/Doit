@@ -2,7 +2,7 @@
 
 Doit is a simple and efficient task manager app that helps you manage your tasks effortlessly.
 # Key features
-It shows details like temperature and weather conditions which helps user to create tasks
+Openweather api has been used to shows details like temperature and weather conditions which helps user to prioritize tasks.
 ## Getting Started
 
 Follow these steps to set up and run the app locally:
