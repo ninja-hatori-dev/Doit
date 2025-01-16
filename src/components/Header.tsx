@@ -72,9 +72,9 @@ export default function Header({ onSearch, setView, onToggleLeftPanel }: HeaderP
               className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
             >
               {view === 'grid' ? (
-                <Grip className="h-5 w-5 bg-transparent text-gray-600 dark:text-gray-300" />
-              ) : (
                 <List className="h-5 w-5 bg-transparent text-gray-600 dark:text-gray-300" />
+              ) : (
+                <Grip className="h-5 w-5 bg-transparent text-gray-600 dark:text-gray-300" />
               )}
             </button>
 

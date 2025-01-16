@@ -71,11 +71,8 @@ export default function LeftPanel({ selectedView, onViewChange }: LeftPanelProps
   return (
     <div className="w-64 h-full bg-green-50 dark:bg-bulkDark border-r border-gray-200 dark:border-gray-700 p-4">
       <div className="flex justify-center items-center">
-        <img
-          src="avatar.jpeg"
-          alt="Profile"
-          className="w-24 h-24 object-cover rounded-full"
-        />
+      <img src="/avatar.jpeg" alt="Profile" className="w-24 h-24 object-cover rounded-full" />
+
       </div>
       <div className="text-gray-700 dark:text-gray-300 font-outfit text-[20px] leading-[20px] font-medium mt-2 mb-2 flex justify-center">
         Hey, {user?.name.toUpperCase()}
