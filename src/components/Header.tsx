@@ -20,7 +20,7 @@ export default function Header({ onSearch, setView, onToggleLeftPanel }: HeaderP
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
 
-  const [view, setLocalView] = useState<'grid' | 'list'>('grid'); // Track the current view
+  const [view, setLocalView] = useState<'grid' | 'list'>('list'); // Track the current view
 
   const onViewChange = () => {
     const newView = view === 'list' ? 'grid' : 'list';
